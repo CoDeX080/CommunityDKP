@@ -39,11 +39,11 @@ if GetLocale() == "deDE" then
   }
 
   core.ZoneList = {
-    "Geschmolzener Kern", "Pechschwingenhort", "Tempel von Ahn'Qiraj", "Naxxramas", "Zul'Gurub", "Ruinen von Ahn'Qiraj", "Onyxias Versteck", "Weltbosse",
+    "Geschmolzener Kern", "Pechschwingenhort", "Tempel von Ahn'Qiraj", "Naxxramas", "Zul'Gurub", "Ruinen von Ahn'Qiraj", "Onyxias Hort", "Weltbosse",
   }
 
   core.L = {
-    ADD = "Hinzufügen",
+    ADD = "Hinzufügen von",
     ADDED = "Hinzugefügt",
     ADDGUILDCONFIRM = "Bist du sicher, dass du alle Gildenmitglieder hinzufügen möchtest, die folgenden Rang haben:",
     ADDGUILDDKPTABLE = "Gilde zur DKP-Tabelle hinzufügen",
