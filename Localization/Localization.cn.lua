@@ -230,6 +230,8 @@ if GetLocale() == "zhCN" then
     DELETEENTRYREFUNDCONF = "受此条目影响的任何DKP都将从列出的每个播放器中退款/删除。",
     DELETETABLES = "删除表格",
     DISABLED = "残障人士",
+	DISENCHANTNOBIDS = "No bids for", --needs translation
+	DISENCHANTNUMBER = "and will be disenchanted. This will be disenchant number", --needs translation
     DISTRIBUTEALLDKPCONF = "将DKP分发给团队中的所有玩家？",
     DISTRIBUTEDKP = "分发DKP",
     DISTRUBUTEBANKED = "在当前老板的抢劫完成后，将银行化DKP平均分配给所有团队成员。",
