@@ -82,7 +82,8 @@ function CommDKP:ProcessDisenchant(loot)
 		--Figure out adjusted cost or minValue
 		if mode == "Static Item Values" or mode == "Roll Based Bidding" or (mode == "Zero Sum" and core.DB.modes.ZeroSumBidType == "Static") then
 			
-			SendChatMessage("No bids for ".." "..itemLink.." for "..cost.." "..L["DKP"].." and will be disenchanted. This will be disenchant number "..updatedDisenchants, "RAID_WARNING");
+			--SendChatMessage("No bids for ".." "..itemLink.." for "..cost.." "..L["DKP"].." and will be disenchanted. This will be disenchant number "..updatedDisenchants, "RAID_WARNING");
+			SendChatMessage(L["DISENCHANTNOBIDS"].." "..itemLink.." "..L["FOR"].." "..cost.." "..L["DKP"].." "..L["DISENCHANTNUMBER"].." "..updatedDisenchants..".", "RAID_WARNING");
 			
 			if core.DB.defaults.DecreaseDisenchantValue then
 				--If cost is 0, reset disenchants.
@@ -106,7 +107,8 @@ function CommDKP:ProcessDisenchant(loot)
 		else
 			minBid = CommDKP_round(core.BiddingWindow.minBid:GetNumber(), core.DB.modes.rounding);
 			newItem.minbid = minBid;
-			SendChatMessage("No bids for ".." "..itemLink.." and will be disenchanted. This will be disenchant number "..updatedDisenchants, "RAID_WARNING");
+			--SendChatMessage("No bids for ".." "..itemLink.." and will be disenchanted. This will be disenchant number "..updatedDisenchants, "RAID_WARNING");
+			SendChatMessage(L["DISENCHANTNOBIDS"].." "..itemLink.." "..L["DISENCHANTNUMBER"].." "..updatedDisenchants..".", "RAID_WARNING");
 		end
 
 		newItem.disenchants = updatedDisenchants;
