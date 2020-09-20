@@ -285,8 +285,8 @@ if GetLocale() == "frFR" then
     DELETEENTRYREFUNDCONF = "Les DKP de cette entrée seront remboursés / repris à chaque joueur concerné.",
     DELETETABLES = "Supprimer des tables",
     DISABLED = "désactivé",
-	DISENCHANTNOBIDS = "No bids for", --needs translation
-	DISENCHANTNUMBER = "and will be disenchanted. This will be disenchant number", --needs translation
+    DISENCHANTNOBIDS = "No bids for", --needs translation
+    DISENCHANTNUMBER = "and will be disenchanted. This will be disenchant number", --needs translation
     DISTRIBUTEALLDKPCONF = "Distribuer des DKP à tous les joueurs du raid ?",
     DISTRIBUTEDKP = "Distribuer des DKP",
     DISTRUBUTEBANKED = "Distribuez le DKP en banque à tous les membres du raid de manière égale après le pillage du boss actuel.",
