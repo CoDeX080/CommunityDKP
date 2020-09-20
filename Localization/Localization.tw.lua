@@ -230,6 +230,8 @@ if GetLocale() == "zhTW" then
     DELETEENTRYREFUNDCONF = "受此條目影響的任何DKP都將從列出的每個玩家中退款/刪除。",
     DELETETABLES = "刪除表格",
     DISABLED = "殘障人士",
+    DISENCHANTNOBIDS = "No bids for", --needs translation
+    DISENCHANTNUMBER = "and will be disenchanted. This will be disenchant number", --needs translation
     DISTRIBUTEALLDKPCONF = "將DKP分發給團隊中的所有玩家？",
     DISTRIBUTEDKP = "分發DKP",
     DISTRUBUTEBANKED = "在當前老闆的掠奪完成後，將銀行化DKP平均分配給所有團隊成員。",
