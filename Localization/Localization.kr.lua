@@ -230,6 +230,8 @@ if GetLocale() == "koKR" then
     DELETEENTRYREFUNDCONF = "이 항목의 영향을받는 DKP는 나열된 각 플레이어로부터 환불 / 제거됩니다.",
     DELETETABLES = "테이블 삭제",
     DISABLED = "비활성화",
+    DISENCHANTNOBIDS = "No bids for", --needs translation
+    DISENCHANTNUMBER = "and will be disenchanted. This will be disenchant number", --needs translation
     DISTRIBUTEALLDKPCONF = "공격대에있는 모든 플레이어에게 DKP를 배포 하시겠습니까?",
     DISTRIBUTEDKP = "DKP 배포",
     DISTRUBUTEBANKED = "현재 보스에 대한 약탈이 완료된 후 모든 급습 멤버에게 뱅킹 DKP를 배포하십시오.",
