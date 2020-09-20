@@ -230,6 +230,8 @@ if GetLocale() == "esES" or GetLocale() == "esMX" then
     DELETEENTRYREFUNDCONF = "Cualquier DKP afectado por esta entrada será reembolsado / eliminado de cada jugador en la lista.",
     DELETETABLES = "Eliminar tablas",
     DISABLED = "Discapacitado",
+	DISENCHANTNOBIDS = "No bids for", --needs translation
+	DISENCHANTNUMBER = "and will be disenchanted. This will be disenchant number", --needs translation
     DISTRIBUTEALLDKPCONF = "¿Distribuir DKP a todos los jugadores en la redada?",
     DISTRIBUTEDKP = "Distribuir DKP",
     DISTRUBUTEBANKED = "Distribuya DKP depositado a todos los miembros de la banda de manera uniforme después de que se haya completado el saqueo para el jefe actual.",
