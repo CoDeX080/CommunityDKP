@@ -236,6 +236,8 @@ if GetLocale() == "ruRU" then
     DELETEENTRYREFUNDCONF = "Любые DKP, затронутые этой записью, будет возвращены/удалены у каждого игрока в списке.",
     DELETETABLES = "Удаление таблиц",
     DISABLED = "запрещены",
+    DISENCHANTNOBIDS = "No bids for", --needs translation
+    DISENCHANTNUMBER = "and will be disenchanted. This will be disenchant number", --needs translation
     DISTRIBUTEALLDKPCONF = "Распределить накопленное DKP между всеми игроками в рейде?",
     DISTRIBUTEDKP = "Распределить DKP",
     DISTRUBUTEBANKED = "Равномерно раздать DKP из накопительного банка всем участникам рейда после завершения текущего босса.",
