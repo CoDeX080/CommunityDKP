@@ -251,6 +251,7 @@ if GetLocale() == "zhCN" then
     DKPHISTORY = "DKP历史",
     DKPHISTORYLIMIT = "DKP历史记录限制",
     DKPHISTORYUPDATECOMP = "DKP历史记录更新已完成。",
+    DKPHISTRECORDBY = "by", --needs translation
     DKPHISTRECORDS = "dkp历史记录",
     DKPHISTUPDATEPROG = "DKP历史记录更新正在进行中",
     DKPLAUNCH = "启动DKP窗口",
