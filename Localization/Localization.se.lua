@@ -213,6 +213,7 @@ core.L = {
   DKPHISTORY = "DKP History",
   DKPHISTORYLIMIT = "DKP History Limit",
   DKPHISTORYUPDATECOMP = "DKP history update complete.",
+  DKPHISTRECORDBY = "by", --needs translation
   DKPHISTRECORDS = "dkp history records",
   DKPHISTUPDATEPROG = "DKP history update in progress",
   DKPLAUNCH = "Launches DKP Window",
