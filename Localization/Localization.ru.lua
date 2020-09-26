@@ -257,6 +257,7 @@ if GetLocale() == "ruRU" then
     DKPHISTORY = "История DKP",
     DKPHISTORYLIMIT = "История DKP",
     DKPHISTORYUPDATECOMP = "Обновление истории DKP завершено.",
+    DKPHISTRECORDBY = "by", --needs translation
     DKPHISTRECORDS = "записей истории DKP",
     DKPHISTUPDATEPROG = "Выполняется обновление истории DKP",
     DKPLAUNCH = "Открывает окно DKP",
