@@ -251,6 +251,7 @@ if GetLocale() == "esES" or GetLocale() == "esMX" then
     DKPHISTORY = "Historia de DKP",
     DKPHISTORYLIMIT = "Límite de historia de DKP",
     DKPHISTORYUPDATECOMP = "Actualización del historial de DKP completa.",
+    DKPHISTRECORDBY = "by", --needs translation
     DKPHISTRECORDS = "registros de historial de dkp",
     DKPHISTUPDATEPROG = "Actualización del historial de DKP en progreso",
     DKPLAUNCH = "Lanza la ventana DKP",
