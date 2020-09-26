@@ -251,6 +251,7 @@ if GetLocale() == "koKR" then
     DKPHISTORY = "DKP 역사",
     DKPHISTORYLIMIT = "DKP 기록 제한",
     DKPHISTORYUPDATECOMP = "DKP 기록 업데이트가 완료되었습니다.",
+    DKPHISTRECORDBY = "by", --needs translation
     DKPHISTRECORDS = "dkp 역사 기록",
     DKPHISTUPDATEPROG = "DKP 기록 업데이트 진행 중",
     DKPLAUNCH = "DKP 창 시작",
