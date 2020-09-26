@@ -306,6 +306,7 @@ if GetLocale() == "frFR" then
     DKPHISTORY = "Historique DKP",
     DKPHISTORYLIMIT = "Limite d'historique DKP",
     DKPHISTORYUPDATECOMP = "La mise à jour de l'historique DKP est terminée.",
+    DKPHISTRECORDBY = "by", --needs translation
     DKPHISTRECORDS = "Historique DKP",
     DKPHISTUPDATEPROG = "Mise à jour de l'historique DKP en cours",
     DKPLAUNCH = "Lance la fenêtre DKP",
