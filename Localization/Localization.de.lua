@@ -556,7 +556,7 @@ Die Kosten der Gegenstände können jedoch immer auch individuell festgelegt wer
     PLAYERS = "Spieler",
     PLAYERSFORREASON = "Spieler aus gutem Grund",
     PLAYERVALIDATE = "Kein Spieler ausgewählt",
-    PLEASEUSENUMS = "Bitte verwenden Sie Zahlen.",
+    PLEASEUSENUMS = "Bitte verwende Zahlen.",
     PRICETAB = "Preise",
     PLEASEVALIDATE = "Ungültige Einträge wurden entfernt. Bitte validieren Sie Ihre Tabellen. (Klicken Sie mit der rechten Maustaste auf das Kontextmenü der DKP-Tabelle.)",
     POINTS = "Punkte",
@@ -824,9 +824,9 @@ Die Kosten der Gegenstände können jedoch immer auch individuell festgelegt wer
 
     --TODO TRANSLATE:
     CHANGELOG1 = "CommunityDKP - v3.2.3",
-    CHANGELOG2 = " - Upgraded and Refactored the MinBids Table",
-    CHANGELOG3 = " - Fixed a Minbid Save Issue on Disenchant that was removing the Minbid price",
-    CHANGELOG4 = " - Implemented PriceList API Support (contribution by styxhope)",
+    CHANGELOG2 = " - Mindesgebots Tabelle verbessert und überarbeitet",
+    CHANGELOG3 = " - Mindesgebots Problem bei Entzauberungen behoben, durch das der Mindestgebotspreis entfernt wurde",
+    CHANGELOG4 = " - Preis-Liste API Unterstützung implementiert (Beitrag von styxhope)",
     CHANGELOG5 = "",
     CHANGELOG6 = "",
     CHANGELOG7 = "",
