@@ -228,6 +228,7 @@ if GetLocale() == "zhCN" then
     DELETEDENTRY = "删除的条目",
     DELETEDKPENTRY = "删除DKP条目",
     DELETEENTRYREFUNDCONF = "受此条目影响的任何DKP都将从列出的每个播放器中退款/删除。",
+    DELETELOOTENTRY = "Delete Entry", --needs translation
     DELETETABLES = "删除表格",
     DISABLED = "残障人士",
     DISENCHANTNOBIDS = "No bids for", --needs translation
@@ -251,8 +252,8 @@ if GetLocale() == "zhCN" then
     DKPHISTORY = "DKP历史",
     DKPHISTORYLIMIT = "DKP历史记录限制",
     DKPHISTORYUPDATECOMP = "DKP历史记录更新已完成。",
-    DKPHISTRECORDBY = "by", --needs translation
-    DKPHISTRECORDS = "dkp历史记录",
+	DKPHISTRECORDBY = "by", --needs translation
+	DKPHISTRECORDS = "dkp历史记录",
     DKPHISTUPDATEPROG = "DKP历史记录更新正在进行中",
     DKPLAUNCH = "启动DKP窗口",
     DKPLOCKOUT = "显示每个团队大小的下一次重置（3天，5天和7天锁定）",
