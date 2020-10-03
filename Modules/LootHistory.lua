@@ -130,7 +130,7 @@ local function RightClickLootMenu(self, index)  -- called by right click functio
 	local search = CommDKP:Table_Search(CommDKP:GetTable(CommDKP_Loot, true), index, "index")
 	menu = {
 		{ text = CommDKP:GetTable(CommDKP_Loot, true)[search[1][1]]["loot"].." "..L["FOR"].." "..CommDKP:GetTable(CommDKP_Loot, true)[search[1][1]]["cost"].." "..L["DKP"], isTitle = true},
-		{ text = "Delete Entry", func = function()
+		{ text = L["DELETELOOTENTRY"], func = function()
 			CommDKPDeleteMenu(index)
 		end },
 		{ text = L["REASSIGNSELECTED"], func = function()
