@@ -228,6 +228,7 @@ if GetLocale() == "koKR" then
     DELETEDENTRY = "삭제 된 항목",
     DELETEDKPENTRY = "DKP 항목 삭제",
     DELETEENTRYREFUNDCONF = "이 항목의 영향을받는 DKP는 나열된 각 플레이어로부터 환불 / 제거됩니다.",
+    DELETELOOTENTRY = "Delete Entry", --needs translation
     DELETETABLES = "테이블 삭제",
     DISABLED = "비활성화",
     DISENCHANTNOBIDS = "No bids for", --needs translation
