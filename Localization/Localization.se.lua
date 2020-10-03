@@ -192,6 +192,7 @@ core.L = {
   DEFAULTSETTINGS = "Default Settings",
   DELETEDKPENTRY = "Delete DKP Entry",
   DELETEENTRYREFUNDCONF = "Any DKP impacted by this entry will be refunded/removed from each player listed.",
+  DELETELOOTENTRY = "Delete Entry", --needs translation
   DISABLED = "Disabled",
   DISENCHANTNOBIDS = "No bids for", --needs translation
   DISENCHANTNUMBER = "and will be disenchanted. This will be disenchant number", --needs translation
