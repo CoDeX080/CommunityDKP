@@ -228,6 +228,7 @@ if GetLocale() == "zhTW" then
     DELETEDENTRY = "刪除的條目",
     DELETEDKPENTRY = "刪除DKP條目",
     DELETEENTRYREFUNDCONF = "受此條目影響的任何DKP都將從列出的每個玩家中退款/刪除。",
+    DELETELOOTENTRY = "Delete Entry", --needs translation
     DELETETABLES = "刪除表格",
     DISABLED = "殘障人士",
     DISENCHANTNOBIDS = "No bids for", --needs translation
