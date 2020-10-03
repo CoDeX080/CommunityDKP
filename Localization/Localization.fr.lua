@@ -283,6 +283,7 @@ if GetLocale() == "frFR" then
     DELETEDENTRY = "Entrées supprimées",
     DELETEDKPENTRY = "Supprimer l'entrée DKP",
     DELETEENTRYREFUNDCONF = "Les DKP de cette entrée seront remboursés / repris à chaque joueur concerné.",
+    DELETELOOTENTRY = "Delete Entry", --needs translation
     DELETETABLES = "Supprimer des tables",
     DISABLED = "désactivé",
     DISENCHANTNOBIDS = "No bids for", --needs translation
