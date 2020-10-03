@@ -228,6 +228,7 @@ if GetLocale() == "esES" or GetLocale() == "esMX" then
     DELETEDENTRY = "Entradas eliminadas",
     DELETEDKPENTRY = "Eliminar entrada DKP",
     DELETEENTRYREFUNDCONF = "Cualquier DKP afectado por esta entrada será reembolsado / eliminado de cada jugador en la lista.",
+    DELETELOOTENTRY = "Delete Entry", --needs translation
     DELETETABLES = "Eliminar tablas",
     DISABLED = "Discapacitado",
     DISENCHANTNOBIDS = "No bids for", --needs translation
