@@ -234,6 +234,7 @@ if GetLocale() == "ruRU" then
     DELETEDENTRY = "Удаленные записи",
     DELETEDKPENTRY = "Удалить запись DKP",
     DELETEENTRYREFUNDCONF = "Любые DKP, затронутые этой записью, будет возвращены/удалены у каждого игрока в списке.",
+    DELETELOOTENTRY = "Delete Entry", --needs translation
     DELETETABLES = "Удаление таблиц",
     DISABLED = "запрещены",
     DISENCHANTNOBIDS = "No bids for", --needs translation
