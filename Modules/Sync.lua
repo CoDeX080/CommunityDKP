@@ -335,7 +335,7 @@ function CommDKP_BroadcastFull_Create()
 	f.bcastHeader:SetPoint("TOPLEFT", f, "TOPLEFT", 15, -15);
 	f.bcastHeader:SetText(L["BROADCASTTABLES"])
 
-	f.tocontainer = CommDKP:CreateContainer(f, "CommDKP_Broadcast_tocontainer", "Broadcast to:")
+	f.tocontainer = CommDKP:CreateContainer(f, "CommDKP_Broadcast_tocontainer", L["SYNCTO"]..":")
     f.tocontainer:SetPoint("TOPLEFT", f.bcastHeader, "BOTTOMLEFT", 10, -20)
     f.tocontainer:SetSize(250, 64)
 
@@ -401,7 +401,7 @@ function CommDKP_BroadcastFull_Create()
 			GameTooltip:Hide()
 		end)
 
-	f.datacontainer = CommDKP:CreateContainer(f, "CommDKP_Broadcast_tocontainer", "Data:")
+	f.datacontainer = CommDKP:CreateContainer(f, "CommDKP_Broadcast_tocontainer", L["SYNCDATA"]..":")
     f.datacontainer:SetPoint("TOPLEFT", f.tocontainer, "BOTTOMLEFT", 0, -10)
     f.datacontainer:SetSize(250, 64)
 
