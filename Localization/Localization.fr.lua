@@ -723,6 +723,8 @@ if GetLocale() == "frFR" then
     SYNCALREADY = "Il y a déjà une synchronisation en cours.",
     SYNCCOMPLETE = "Synchronisation terminée",
     SYNCCOMPLETE2 = "Synchronisation terminée. Tous les joueurs sont à jour.",
+    SYNCDATA = "Data", -- NEEDS TRANSLATION
+    SYNCTO = "Broadcast to", -- NEEDS TRANSLATION
     TABLEQUERYHEADER = "État de la table DKP de la guilde",
     TABLEQUERYNONOFFICER = "État de la table des non-officiers (en ligne)",
     TABLEQUERYOFFICER = "État de la table des officiers (en ligne)",
