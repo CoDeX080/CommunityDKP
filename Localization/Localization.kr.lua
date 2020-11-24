@@ -668,6 +668,8 @@ if GetLocale() == "koKR" then
     SYNCALREADY = "이미 동기화가 진행 중입니다.",
     SYNCCOMPLETE = "동기화 완료",
     SYNCCOMPLETE2 = "동기화 완료. 모든 플레이어는 최신 상태입니다.",
+    SYNCDATA = "Data", -- NEEDS TRANSLATION
+    SYNCTO = "Broadcast to", -- NEEDS TRANSLATION
     TABLEQUERYHEADER = "길드 DKP 테이블 상태",
     TABLEQUERYNONOFFICER = "임원 이외의 테이블 상태 (온라인)",
     TABLEQUERYOFFICER = "임원 테이블 상태 (온라인)",
