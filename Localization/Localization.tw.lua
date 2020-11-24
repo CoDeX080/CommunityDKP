@@ -670,6 +670,8 @@ if GetLocale() == "zhTW" then
     SYNCALREADY = "當前正在進行同步。",
     SYNCCOMPLETE = "同步完成",
     SYNCCOMPLETE2 = "同步完成。 所有玩家都是最新的。",
+    SYNCDATA = "Data", -- NEEDS TRANSLATION
+    SYNCTO = "Broadcast to", -- NEEDS TRANSLATION
     TABLEQUERYHEADER = "公會DKP表狀態",
     TABLEQUERYNONOFFICER = "非辦公人員表狀態（在線）",
     TABLEQUERYOFFICER = "人員表狀態（在線）",
