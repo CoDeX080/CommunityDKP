@@ -684,6 +684,8 @@ if GetLocale() == "ruRU" then
     SYNCALREADY = "Синхронизация данных уже запущена. ",
     SYNCCOMPLETE = "Синхронизация завершена",
     SYNCCOMPLETE2 = "Синхронизация завершена. У всех игроков актуальные данные.",
+    SYNCDATA = "Data", -- NEEDS TRANSLATION
+    SYNCTO = "Broadcast to", -- NEEDS TRANSLATION
     TABLEQUERYHEADER = "Статус таблиц в гильдии",
     TABLEQUERYNONOFFICER = "Статус игроков (онлайн)",
     TABLEQUERYOFFICER = "Статус офицеров (онлайн)",
