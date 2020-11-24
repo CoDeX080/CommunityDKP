@@ -668,6 +668,8 @@ if GetLocale() == "esES" or GetLocale() == "esMX" then
     SYNCALREADY = "Ya hay una sincronización actualmente en progreso.",
     SYNCCOMPLETE = "Sincronización completada",
     SYNCCOMPLETE2 = "Sincronización completada. Todos los jugadores están al día.",
+    SYNCDATA = "Data", -- NEEDS TRANSLATION
+    SYNCTO = "Broadcast to", -- NEEDS TRANSLATION
     TABLEQUERYHEADER = "DKP-Tabellenstatus der Gilde",
     TABLEQUERYNONOFFICER = "Nichtoffizier-Tabellenstatus (Online)",
     TABLEQUERYOFFICER = "Offiziertabellenstatus (Online)",
