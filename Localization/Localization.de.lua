@@ -382,12 +382,12 @@ Die Kosten der Gegenstände können jedoch immer auch individuell festgelegt wer
     ITEMS = "Gegenstände",
     ITEMCOST = "DKP-Kosten",
     ITEMCOSTTTDESC = "DKP-Kosten des Gegenstandes, die der Gewinner zu zahlen hat.",
-    ITEMCOSTTYPES = "Artikelkostentypen",
-    ITEMCOSTTYPESTTDESC = [=[Wählen Sie die Art des Wertes, der für die Gegenstandskosten verwendet wird (was der Spieler für einen Gegenstand bezahlt). Ganzzahl oder Prozent. Diese Werte werden auf der Registerkarte "Optionen" festgelegt. 
+    ITEMCOSTTYPES = "Kostenart",
+    ITEMCOSTTYPESTTDESC = [=[Wähle die Art der Berechnung für die Gegenstandskosten. Zur Auswahl stehen "Ganze Zahl" oder "Prozent". Die Werte dazu werden auf der Registerkarte "Optionen" festgelegt. 
 
-    |CFFFF0000Ganze Zahl|r: Die Elementkosten sind Ganzzahlen (Dezimalstellen werden auf die durch "DKP-Rundung" unten angegebene Dezimalstelle gerundet). Beispiel: 100 DKP. 
+|CFFFF0000Ganze Zahl|r: Die Gegenstandskosten sind immer ganze Zahlen. Es gelten die unter "DKP-Rundung" eingestellten Regeln. 
 
-    |CFFFF0000Prozent|r: Die Gegenstandskosten sind ein Prozentsatz der gesamten DKP des Gewinners. Beispiel: Der Spieler hat 1000 DKP, die Gegenstandskosten betragen 20%. Daher betragen die Gegenstandskosten für diesen Spieler 200 DKP.]=],
+|CFFFF0000Prozent|r: Die Gegenstandskosten sind ein Prozentsatz der gesamten DKP des Gewinners. Dezimalstellen werden auf die durch "DKP-Rundung" unten angegebene Dezimalstelle gerundet. Beispiel: Der Spieler hat 1000 DKP, die Gegenstandskosten betragen 15%. Der Gegenstand kostet für diesen Spieler demnach 150 DKP.]=],
     LEGS = "Beine",
     LIFETIMEEARNED = "Insgesamt verdient",
     LIFETIMESPENT = "Insgesamt ausgegeben",
@@ -417,7 +417,7 @@ Die Kosten der Gegenstände können jedoch immer auch individuell festgelegt wer
     MANAGESTANDBY = "Ersatzbank verwalten",
     MANUALLYDENIED = "wurde vom Auktionator abgewiesen.",
     MAX = "Max",
-    MAXBIDBEHAVIOR = "Verhalten der Schaltfläche MAX Bid",
+    MAXBIDBEHAVIOR = "Verhalten der Gebot-Schaltfläche \"MAX\"",
     MAXBIDBEHAVIORMAXDKP = "Max DKP",
     MAXBIDBEHAVIORMAXITEMVALUE = "Maximaler Artikelwert",
     MAXBIDBEHAVIORMIN = "Min(Max DKP, Maximaler Artikelwert)",
@@ -443,7 +443,7 @@ Die Kosten der Gegenstände können jedoch immer auch individuell festgelegt wer
     Dieses Fenster kann mit "/dkp migrate" erneut geöffnet werden.]=],
     MIGRATEINST2 = "%s hat die Migration bereits durchgeführt. Bitte sichern Sie Ihre gespeicherte Variablendatei sofort (WTF\\Account\\ACCOUNT_NAME\\SavedVariables\\CommunityDKP.lua) und klicken Sie dann auf die Schaltfläche \"Tabellen löschen\". Wenn %s online ist, wird nach dem erneuten Laden automatisch eine Synchronisierung an Sie gesendet. Andernfalls wird einer bei der Anmeldung weitergeleitet, oder Sie können die Weiterleitung einer Synchronisierung anfordern (dies erfolgt durch Klicken auf die Schaltfläche für den Tabellenstatus in der unteren linken Ecke der Haupt-GUI). Wenn während des Migrationsprozesses für Ihre Gilde Fehler auftreten, löschen Sie das Tag für migrierende Offiziere aus der öffentlichen Notiz des Gildenleiters, und lassen Sie alle beteiligten Offiziere ihre beschädigte gespeicherte Variablendatei löschen und auf die gesicherte Datei zurücksetzen. Jeder muss dies zur gleichen Zeit tun und sich nicht anmelden (mit aktiviertem Addon), bis dies abgeschlossen ist. Jeder, der mit migrierten Tabellen online ist, übermittelt diese Daten automatisch an Sie, sobald Sie sich anmelden.",
     MIN = "Mindest",
-    MINBIDDESCRIPTION = [=[Bei Mindestgebotswerten wird allen Slots (oder einzelnen Gegenständen) ein Mindestwert zugewiesen. Jeder, der ein Gebot abgibt, muss den Mindeswert oder höher bieten.
+    MINBIDDESCRIPTION = [=[Bei Mindestgebotswerten wird jedem Ausrüstungsplatz (oder einzelnen Gegenständen) ein Mindestwert zugewiesen. Jeder, der ein Gebot abgibt, muss den Mindeswert oder höher bieten.
 
 Beispiel: |cffa335ee|Hitem:18423::::::::120:577::::::|h[Onyxias Kopf]|h|r hat einen Mindestgebotswert von 50 DKP. Jeder Interessent sendet !bid 50 (oder mehr) über einen der offenen Befehlskanäle (unten auswählbar), ohne seine verfügbaren DKP zu überschreiten (es sei denn, Dispositions-Gebote sind erlaubt). Der Spieler mit dem höchsten Gebot gewinnt. Die Kosten richten sich nach den entsprechenden Einstellungen. Lies die QuickInfos, um weitere Informationen zu erhalten.]=],
     MINBIDTTDESC = "Mindestgebotswert, der akzeptiert wird.",
@@ -668,9 +668,9 @@ Beispiel: |cffa335ee|Hitem:18423::::::::120:577::::::|h[Onyxias Kopf]|h|r hat ei
     STARTBIDDINGTTDESC = "Startet die Auktion für den aktuellen Gegenstand. Gebote werden nur angenommen, solange diese läuft.",
     STARTBIDDINGTTWARN = "Die Bietdauer kann im Feld \"Gebot-Timer\" eingestellt werden. Durch das Starten einer zweiten Auktion für den gleichen Gegenstand werden vorherige Gebote nicht gelöscht (falls jemand die Auktion verpasst oder falsch geboten wird).",
     STATIC = "Statisch",
-    STATICDESCRIPTION = [=[Mit statischen Item-Kosten ​​wird allen Slots (oder einzelnen Items) ein konstanter Wert zugewiesen. Ein Gebot wird von jedem Spieler (mit !bid) abgegeben, der den Gegenstand haben möchte, und der Spieler mit dem höchsten verfügbaren DKP gewinnt. Die Kostenoptionen sind "Ganzzahl" oder "Prozent".
+    STATICDESCRIPTION = [=[Mit statischen Gegenstandkosten wird jedem Ausrüstungsplatz (oder einzelnen Gegenständen) ein fester Wert zugewiesen. Bieter geben nur ein Gebot (mittels !bid) ab und der Spieler mit den höchsten verfügbaren DKP gewinnt. Die Kostenarten sind "Ganze Zahl" oder "Prozent".
 
-    Ex: |cffa335ee|Hitem:19143::::::::120:577::::::|h[Flameguard Gauntlets]|h|r fällt ab und hat einen statischen Wert von 50 DKP. Jeder Spieler, der möchte, verwendet "!bid" über einen der geöffneten Kanäle (unten ausgewählt). Der Spieler mit dem höchsten verfügbaren DKP gewinnt und erhält diesen statischen Wert. Lesen Sie die QuickInfos, um weitere Informationen zu erhalten.]=],
+    Beispiel: |cffa335ee|Hitem:19143::::::::120:577::::::|h[Flammenwächterstulpen]|h|r haben einen festgelegten Wert von 50 DKP oder 10 Prozent. Jeder Bieter verwendet "!bid" über einen der offenen Befehlskanäle (unten auswählbar). Der Spieler mit den höchsten verfügbaren DKP gewinnt und erhält den Gegenstand für 50 DKP oder 10 Prozent seiner Gesamt-DKP. Lies die QuickInfos, um weitere Informationen zu erhalten.]=],
     STATICITEMVALUESHEAD = "Statische Gegenstandskosten",
     SUBMITBID = "Gebot abgeben",
     SUBMITBUGS = "für die Hilfe und melde Fehler auf",
